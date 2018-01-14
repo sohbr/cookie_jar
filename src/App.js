@@ -5,14 +5,26 @@ import './App.scss'
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
+      <div className="grid-wrapper">
+        <navbar className="navbar">
+          <a href="">Home</a>
+          <a href="">Cookies</a>
+          <a href="">Contact</a>
+        </navbar>
+        <header>
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Dan's Cookie Jar</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <section className="gallery">
+          <h2>Gallery</h2>
+        </section>
+        <section className="cookies">
+          <h2>Cookies</h2>
+        </section>
+        <section className="contact">
+          <h2>Contact</h2>
+        </section>
+        <footer>© 2017 by DAN'S COOKIE JAR.</footer>
       </div>
     )
   }
