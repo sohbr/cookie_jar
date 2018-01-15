@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Scrollchor from 'react-scrollchor'
 import './Navbar.scss'
 
 class Navbar extends Component {
@@ -7,13 +8,16 @@ class Navbar extends Component {
       <navbar className="navbar">
         <ul>
           <li>
-            <a href="">Home</a>
+            <Scrollchor to="#home">Home</Scrollchor>
           </li>
           <li>
-            <a href="">Cookies</a>
+            <Scrollchor to="#gallery">Gallery</Scrollchor>
           </li>
           <li>
-            <a href="">Contact</a>
+            <Scrollchor to="#cookies">Cookies</Scrollchor>
+          </li>
+          <li>
+            <Scrollchor to="#contact">Contact</Scrollchor>
           </li>
         </ul>
       </navbar>

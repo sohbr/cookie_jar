@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <div className="grid-wrapper">
         <Navbar />
-        <header>
+        <header id="home">
           <div className="header-left">
             <img src={logo} className="App-logo" alt="logo" />
           </div>
@@ -27,10 +27,10 @@ class App extends Component {
             <Button width="14vw">Order Now</Button>
           </div>
         </header>
-        <section className="gallery">
+        <section className="gallery" id="gallery">
           <h2>Gallery</h2>
         </section>
-        <section className="cookies">
+        <section className="cookies" id="cookies">
           <h2>Cookies</h2>
           <CookieList />
         </section>
