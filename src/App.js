@@ -1,10 +1,10 @@
-import React, { Component } from "react";
-import Button from "./Button";
-import CookieList from "./CookieList";
-import Contact from "./Contact";
-import Footer from "./Footer";
-import logo from "./assets/images/logo.png";
-import "./App.scss";
+import React, { Component } from 'react'
+import Button from './Button'
+import CookieList from './CookieList'
+import Contact from './Contact'
+import Footer from './Footer'
+import logo from './assets/images/logo.png'
+import './App.scss'
 
 class App extends Component {
   render() {
@@ -38,12 +38,13 @@ class App extends Component {
           <CookieList />
         </section>
         <section className="contact">
+          <h2>Contact Us</h2>
           <Contact />
         </section>
         <Footer />
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
