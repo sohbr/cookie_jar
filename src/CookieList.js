@@ -50,7 +50,7 @@ const cookies = [
 class CookieList extends Component {
   render() {
     return (
-      <div className="cookie-list">
+      <ul className="cookie-list">
         {cookies.map(c =>
           <CookieListItem
             key={c.id}
@@ -59,7 +59,7 @@ class CookieList extends Component {
             image={c.img_url}
           />
         )}
-      </div>
+      </ul>
     )
   }
 }

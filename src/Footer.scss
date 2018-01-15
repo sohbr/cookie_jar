@@ -2,10 +2,12 @@
 
 footer {
   grid-area: footer;
-  padding: 20px;
+  padding: 2rem;
+  padding-top: 5rem;
   text-align: right;
 
   p {
     font-family: 'Enriqueta', serif;
+    color: $c-brown;
   }
 }

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Button from './Button'
 import CookieList from './CookieList'
 import Footer from './Footer'
 import logo from './assets/images/logo.png'
@@ -26,6 +27,7 @@ class App extends Component {
               add some cheesy story later...
             </h2>
             <button className="App-button">Order Now</button>
+            <Button>Test</Button>
           </div>
         </header>
         <section className="gallery">

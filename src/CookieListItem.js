@@ -10,7 +10,7 @@ class CookieListItem extends Component {
 
   render() {
     return (
-      <div className="cookie-item">
+      <li className="cookie-item">
         <div className="cookie-image">
           <img src={this.props.image} alt={this.props.title} />
         </div>
@@ -22,7 +22,7 @@ class CookieListItem extends Component {
             {this.props.description}
           </p>
         </div>
-      </div>
+      </li>
     )
   }
 }
