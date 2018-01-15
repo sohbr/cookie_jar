@@ -3,7 +3,9 @@
 .grid-wrapper {
   display: grid;
   grid-template-rows: 55px 100vh 100vh;
-  grid-template-areas: "navbar" "header" "gallery" "cookies" "footer";
+  // The "." is an autofill row--anything not explicitly defined here will be
+  // placed into that position
+  grid-template-areas: "navbar" "header" "gallery" "cookies" "." "footer";
 }
 
 .grid-wrapper > section > h2 {
@@ -16,7 +18,7 @@
 .navbar {
   grid-area: navbar;
   background-color: $c-lightgreen;
-  color: white;
+  color: $c-offwhite;
   text-align: right;
   padding: 10px;
 
@@ -110,8 +112,4 @@ section.gallery {
 
 section.cookies {
   grid-area: cookies;
-}
-
-footer {
-  grid-area: footer;
 }

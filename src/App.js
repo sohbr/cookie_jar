@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Footer from "./Footer";
 import logo from "./assets/images/logo.png";
 import "./App.scss";
 
@@ -35,7 +36,7 @@ class App extends Component {
         <section className="contact">
           <h2>Contact</h2>
         </section>
-        <footer>© 2017 by DAN'S COOKIE JAR.</footer>
+        <Footer />
       </div>
     );
   }
