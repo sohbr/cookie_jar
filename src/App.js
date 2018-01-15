@@ -1,18 +1,10 @@
-<<<<<<< HEAD
-import React, { Component } from "react";
-import CookieList from "./CookieList";
-import Contact from "./Contact";
-import Footer from "./Footer";
-import logo from "./assets/images/logo.png";
-import "./App.scss";
-=======
 import React, { Component } from 'react'
+import Contact from './Contact'
 import Button from './Button'
 import CookieList from './CookieList'
 import Footer from './Footer'
 import logo from './assets/images/logo.png'
 import './App.scss'
->>>>>>> 0a6f5c2bbb5e44d91446a5ce92b411d5ca6163da
 
 class App extends Component {
   render() {
@@ -52,8 +44,8 @@ class App extends Component {
         </section>
         <Footer />
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
