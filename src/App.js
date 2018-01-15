@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 import React, { Component } from "react";
 import CookieList from "./CookieList";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import logo from "./assets/images/logo.png";
 import "./App.scss";
+=======
+import React, { Component } from 'react'
+import Button from './Button'
+import CookieList from './CookieList'
+import Footer from './Footer'
+import logo from './assets/images/logo.png'
+import './App.scss'
+>>>>>>> 0a6f5c2bbb5e44d91446a5ce92b411d5ca6163da
 
 class App extends Component {
   render() {
@@ -27,6 +36,8 @@ class App extends Component {
               add some cheesy story later...
             </h2>
             <button className="App-button">Order Now</button>
+            <Button width="14vw">Order Now</Button>
+            <Button>Button without a specific height/width</Button>
           </div>
         </header>
         <section className="gallery">

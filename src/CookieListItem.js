@@ -10,15 +10,19 @@ class CookieListItem extends Component {
 
   render() {
     return (
-      <div className="cookie-item">
-        <img src={this.props.image} alt={this.props.title} />
-        <h2>
-          {this.props.title}
-        </h2>
-        <p>
-          {this.props.description}
-        </p>
-      </div>
+      <li className="cookie-item">
+        <div className="cookie-image">
+          <img src={this.props.image} alt={this.props.title} />
+        </div>
+        <div className="cookie-content">
+          <h2>
+            {this.props.title}
+          </h2>
+          <p>
+            {this.props.description}
+          </p>
+        </div>
+      </li>
     )
   }
 }

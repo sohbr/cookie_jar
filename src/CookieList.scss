@@ -3,6 +3,7 @@
 .cookie-list {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
 }
 
 .cookie-list > .cookie-item {
@@ -11,22 +12,33 @@
   background-color: $c-offwhite;
   margin-right: 1rem;
   margin-bottom: 1rem;
-  padding: 0.5rem;
 }
 
-.cookie-list > .cookie-item img {
-  border: 1px solid black;
+.cookie-list > .cookie-item > .cookie-image {
+  padding: 0;
+  margin: 0;
+  display: block;
 }
 
-.cookie-list > .cookie-item h2 {
+.cookie-list > .cookie-item > .cookie-image img {
+  width: 100%;
+  max-height: 300px;
+}
+
+.cookie-list > .cookie-item > .cookie-content {
+  display: block;
+  padding: 1.5rem 1.2rem;
+}
+
+.cookie-list > .cookie-item > .cookie-content h2 {
   font-family: 'Kelly Slab', sans-serif;
   font-family: 'Kelly Slab', sans-serif;
   font-size: 2rem;
-  margin: 1.5rem;
+  margin-bottom: .8rem;
   text-align: center;
   display: block;
 }
 
-.cookie-list > .cookie-item p {
+.cookie-list > .cookie-item > .cookie-content p {
   font-family: 'Enriqueta', serif;
 }
