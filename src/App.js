@@ -1,20 +1,17 @@
-import React, { Component } from "react";
-import Button from "./Button";
-import CookieList from "./CookieList";
-import Contact from "./Contact";
-import Footer from "./Footer";
-import logo from "./assets/images/logo.png";
-import "./App.scss";
+import React, { Component } from 'react'
+import Button from './Button'
+import Navbar from './Navbar'
+import CookieList from './CookieList'
+import Contact from './Contact'
+import Footer from './Footer'
+import logo from './assets/images/logo.png'
+import './App.scss'
 
 class App extends Component {
   render() {
     return (
       <div className="grid-wrapper">
-        <navbar className="navbar">
-          <a href="">Home</a>
-          <a href="">Cookies</a>
-          <a href="">Contact</a>
-        </navbar>
+        <Navbar />
         <header>
           <div className="header-left">
             <img src={logo} className="App-logo" alt="logo" />
@@ -42,8 +39,8 @@ class App extends Component {
         </section>
         <Footer />
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App

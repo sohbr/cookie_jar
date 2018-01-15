@@ -1,0 +1,45 @@
+@import "themes/colors";
+
+.navbar {
+  grid-area: navbar;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: $c-offwhite;
+  text-align: right;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0 .5rem;
+  height: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+
+.navbar ul > li {
+}
+
+.navbar ul > li > a {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  font-family: "Kelly Slab", sans-serif;
+  height: 100%;
+  color: white;
+  text-decoration: none;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  cursor: pointer;
+  transition: 0.2s all;
+
+  &:visited,
+  &:active {
+    color: white;
+    text-decoration: none;
+  }
+
+  &:hover {
+    color: black;
+    background-color: $c-lightblue;
+  }
+}
