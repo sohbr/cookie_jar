@@ -5,92 +5,27 @@
   grid-template-rows: 55px 100vh 100vh;
   // The "." is an autofill row--anything not explicitly defined here will be
   // placed into that position
-  grid-template-areas: "navbar" "header" "gallery" "cookies" "." "footer";
+  grid-template-areas: "navbar" "jumbotron" "gallery" "cookies" "." "footer";
 }
 
+.grid-wrapper > section {
+  /* Not applied for some reason; all: initial is overriding */
+  padding: 5rem 0;
+}
+
+// Section headers
 .grid-wrapper > section > h2 {
   font-family: "Kelly Slab", sans-serif;
   font-size: 2rem;
   color: $c-brown;
   text-align: center;
-}
-
-.navbar {
-  grid-area: navbar;
-  background-color: $c-lightgreen;
-  color: $c-offwhite;
-  text-align: right;
-  padding: 10px;
-
-  > a {
-    margin: 10px;
-    color: white;
-    text-decoration: none;
-
-    a:visited,
-    a:active {
-      color: white;
-      text-decoration: none;
-    }
-  }
-}
-
-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  grid-area: header;
-  background-color: $c-offwhite;
-  color: $c-brown;
-  text-align: center;
-}
-
-.header-left {
-  display: flex;
-  flex-direction: column;
-  width: 40%;
-  justify-content: center;
-  align-items: center;
-  margin-left: 50px;
-}
-
-.App-logo {
-  height: auto;
-  width: 75%;
-}
-
-.header-right {
-  display: flex;
-  flex-direction: column;
-  width: 60%;
-  justify-content: center;
-  align-items: center;
-  margin-right: 50px;
-}
-
-.App-title {
-  font-family: "Kelly Slab", sans-serif;
-  font-size: 6vw;
-  color: $c-brown;
   display: block;
-  text-align: center;
-  margin-bottom: 15px;
 }
 
-.App-intro {
-  font-size: 1.5vw;
-  font-family: Enriqueta;
-  width: 80%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-section.gallery {
+.grid-wrapper > section.gallery {
   grid-area: gallery;
 }
 
-section.cookies {
+.grid-wrapper > section.cookies {
   grid-area: cookies;
 }
