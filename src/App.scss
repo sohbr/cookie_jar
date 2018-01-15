@@ -3,31 +3,7 @@
 .grid-wrapper {
   display: grid;
   grid-template-rows: 55px 100vh 100vh;
-}
-
-.navbar {
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-header {
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-
-section.gallery {
-  grid-row-start: 3;
-  grid-row-end: 4;
-}
-
-section.cookies {
-  grid-row-start: 4;
-  grid-row-end: 5;
-}
-
-footer {
-  grid-row-start: 5;
-  grid-row-end: 6;
+  grid-template-areas: "navbar" "header" "gallery" "cookies" "footer";
 }
 
 .grid-wrapper > section > h2 {
@@ -38,6 +14,7 @@ footer {
 }
 
 .navbar {
+  grid-area: navbar;
   background-color: $c-lightgreen;
   color: white;
   text-align: right;
@@ -56,17 +33,15 @@ footer {
   }
 }
 
-.App-logo {
-  height: 80px;
-}
-
 header {
-  width: 100%;
-  padding: 25px;
+  grid-area: header;
   background-color: $c-offwhite;
   color: $c-brown;
-  display: block;
   text-align: center;
+}
+
+.App-logo {
+  height: 80px;
 }
 
 .App-title {
@@ -79,4 +54,16 @@ header {
 
 .App-intro {
   font-size: 1rem;
+}
+
+section.gallery {
+  grid-area: gallery;
+}
+
+section.cookies {
+  grid-area: cookies;
+}
+
+footer {
+  grid-area: footer;
 }
