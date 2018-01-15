@@ -1,0 +1,11 @@
+@import 'themes/colors';
+
+footer {
+  grid-area: footer;
+  padding: 20px;
+  text-align: right;
+
+  p {
+    font-family: 'Enriqueta', serif;
+  }
+}
