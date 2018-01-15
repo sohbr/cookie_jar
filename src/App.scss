@@ -1,4 +1,4 @@
-@import 'themes/colors';
+@import "themes/colors";
 
 .grid-wrapper {
   display: grid;
@@ -9,7 +9,7 @@
 }
 
 .grid-wrapper > section > h2 {
-  font-family: 'Kelly Slab', sans-serif;
+  font-family: "Kelly Slab", sans-serif;
   font-size: 2rem;
   color: $c-brown;
   text-align: center;
@@ -36,26 +36,74 @@
 }
 
 header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
   grid-area: header;
   background-color: $c-offwhite;
   color: $c-brown;
   text-align: center;
 }
 
+.header-left {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+
 .App-logo {
-  height: 80px;
+  height: auto;
+  width: 75%;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
 }
 
 .App-title {
-  font-family: 'Kelly Slab', sans-serif;
-  font-size: 1.5rem;
+  font-family: "Kelly Slab", sans-serif;
+  font-size: 6vw;
   color: $c-brown;
   display: block;
   text-align: center;
+  margin-bottom: 15px;
 }
 
 .App-intro {
-  font-size: 1rem;
+  font-size: 1.5vw;
+  font-family: Enriqueta;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-button {
+  background-color: $c-brown;
+  color: $c-offwhite;
+  margin-top: 15px;
+  border-radius: 5px;
+  font-size: 1.2vw;
+  width: 14vw;
+  height: 3vw;
+}
+
+.App-button:hover {
+  background-color: $c-offwhite;
+  color: $c-brown;
+  border-color: $c-brown;
+  border-width: 2px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 section.gallery {
