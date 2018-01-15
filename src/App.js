@@ -27,10 +27,8 @@ class App extends Component {
               add some cheesy story later...
             </h2>
             <button className="App-button">Order Now</button>
-            <Button width="14vw" height="3vw">
-              Order Now
-            </Button>
-            <Button>Test</Button>
+            <Button width="14vw">Order Now</Button>
+            <Button>Button without a specific height/width</Button>
           </div>
         </header>
         <section className="gallery">
