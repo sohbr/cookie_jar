@@ -8,6 +8,10 @@
   grid-template-areas: "navbar" "header" "gallery" "cookies" "." "footer";
 }
 
+.grid-wrapper > section {
+  padding: 5rem 0; // Not applied for some reason; all: initial is overriding
+}
+
 .grid-wrapper > section > h2 {
   font-family: "Kelly Slab", sans-serif;
   font-size: 2rem;
@@ -16,7 +20,7 @@
   display: block;
 }
 
-header {
+.grid-wrapper > header {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -91,10 +95,10 @@ header {
   align-items: center;
 }
 
-section.gallery {
+.grid-wrapper > section.gallery {
   grid-area: gallery;
 }
 
-section.cookies {
+.grid-wrapper > section.cookies {
   grid-area: cookies;
 }
