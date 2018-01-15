@@ -3,6 +3,8 @@
 .grid-wrapper {
   display: grid;
   grid-template-rows: 55px 100vh 100vh;
+  // The "." is an autofill row--anything not explicitly defined here will be
+  // placed into that position
   grid-template-areas: "navbar" "header" "gallery" "cookies" "." "footer";
 }
 
