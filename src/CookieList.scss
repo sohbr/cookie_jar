@@ -1,0 +1,32 @@
+@import 'themes/colors';
+
+.cookie-list {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.cookie-list > .cookie-item {
+  width: 30%;
+  min-width: 300px;
+  background-color: $c-offwhite;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+.cookie-list > .cookie-item img {
+  border: 1px solid black;
+}
+
+.cookie-list > .cookie-item h2 {
+  font-family: 'Kelly Slab', sans-serif;
+  font-family: 'Kelly Slab', sans-serif;
+  font-size: 2rem;
+  margin: 1.5rem;
+  text-align: center;
+  display: block;
+}
+
+.cookie-list > .cookie-item p {
+  font-family: 'Enriqueta', serif;
+}

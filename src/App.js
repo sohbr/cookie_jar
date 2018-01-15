@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import CookieList from './CookieList'
 import Footer from './Footer'
 import logo from './assets/images/logo.png'
 import './App.scss'
@@ -21,6 +22,7 @@ class App extends Component {
         </section>
         <section className="cookies">
           <h2>Cookies</h2>
+          <CookieList />
         </section>
         <section className="contact">
           <h2>Contact</h2>

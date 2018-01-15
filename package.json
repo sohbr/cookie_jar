@@ -6,6 +6,7 @@
     "node-sass": "^4.7.2",
     "postcss-autoreset": "^2.0.1",
     "postcss-initial": "^2.0.0",
+    "prop-types": "^15.6.0",
     "sass-loader": "^6.0.6"
   },
   "dependencies": {
