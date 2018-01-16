@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Map, InfoWindow, Marker, GoogleApiWrapper } from 'google-maps-react'
-// import REACT_APP_API_KEY from './.env.local'
 
 export class MapContainer extends Component {
   render() {
@@ -20,6 +19,14 @@ export class MapContainer extends Component {
           name={'2114 Mooncrest Dr. Houston, TX 77089'}
           position={{ lat: 29.5746991, lng: -95.2346119 }}
         />
+        <InfoWindow
+          visible={true}
+          position={{ lat: 29.5746991, lng: -95.2346119 }}
+        >
+          <div>
+            <h2>2114 Mooncrest Dr. Houston, TX 77089</h2>
+          </div>
+        </InfoWindow>
       </Map>
     )
   }
