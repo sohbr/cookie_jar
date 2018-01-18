@@ -19,7 +19,7 @@ class App extends Component {
           <h2>Cookies</h2>
           <CookieList />
         </section>
-        <section className="contact">
+        <section className="contact" id="contact">
           <h2>Contact Us</h2>
           <Contact />
         </section>

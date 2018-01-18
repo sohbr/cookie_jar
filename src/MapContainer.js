@@ -6,7 +6,7 @@ export class MapContainer extends Component {
     return (
       <Map
         google={this.props.google}
-        style={{ width: '50%', height: '50%', position: 'relative' }}
+        style={{ width: '45%', height: '45%' }}
         initialCenter={{
           lat: 29.5746991,
           lng: -95.2346119

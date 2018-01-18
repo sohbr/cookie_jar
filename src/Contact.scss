@@ -3,8 +3,28 @@
 .contact {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .map {
-  height: 50%;
+  margin-top: 25px;
+  height: 350px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-order {
+  font-family: Enriqueta;
+  font-size: 1.75vw;
+  color: $c-brown;
+  margin: 10px;
+}
+
+.contact-blurb {
+  font-family: Enriqueta;
+  font-size: 1.5vw;
+  color: $c-brown;
+  margin: 15px;
 }
