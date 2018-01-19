@@ -1,4 +1,4 @@
-@import "themes/colors";
+@import 'themes/colors';
 
 .grid-wrapper > header.jumbotron {
   grid-area: jumbotron;
@@ -58,7 +58,7 @@ header.jumbotron .header-right {
 }
 
 header.jumbotron .header-right h1 {
-  font-family: "Kelly Slab", sans-serif;
+  font-family: 'Kelly Slab', sans-serif;
   font-size: 6vw;
   color: $c-brown;
   display: block;

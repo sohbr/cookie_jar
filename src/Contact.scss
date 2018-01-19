@@ -10,14 +10,16 @@
 .map {
   margin-top: 25px;
   height: 350px;
-  width: 100%;
+  width: 100vw;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .contact-order {
   font-family: Enriqueta;
-  font-size: 1.75vw;
+  font-size: 2vw;
   color: $c-brown;
   margin: 10px;
 }
@@ -27,4 +29,7 @@
   font-size: 1.5vw;
   color: $c-brown;
   margin: 15px;
+  width: 65%;
+  text-align: center;
+  line-height: 2;
 }
