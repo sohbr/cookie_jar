@@ -13,18 +13,7 @@ class Contact extends Component {
           Order by Phone or Text: 832-830-5599
         </div>
         <div className="contact-order">or</div>
-        <div className="contact-order">
-          Send us an Email:
-          <a href="mailto:danscookiejar@gmail.com?Subject=Cookie%20Order">
-            danscookiejar@gmail.com
-          </a>
-        </div>
-        <a
-          href="mailto:someone@example.com?Subject=Hello%20again"
-          target="_top"
-        >
-          Send Mail
-        </a>
+        <div className="contact-order">Send us an Email:</div>
         <div className="contact-blurb">
           Our website is designed for Houston residents to purchase cookies
           online for pickup. Delivery arrangements can be made for an additional
@@ -34,6 +23,7 @@ class Contact extends Component {
           occasions. Just give us a call, text or email and we will be happy to
           fulfill your order.
         </div>
+        <a href="mailto:danscookiejar@gmail.com">danscookiejar@gmail.com</a>
       </div>
     )
   }
