@@ -1,6 +1,11 @@
 import React, { Component } from 'react'
 import './Contact.scss'
 import MapContainer from './MapContainer'
+import cupcake1 from './assets/images/cupcake1.png'
+import star from './assets/images/star.png'
+import fb from './assets/images/fb-logo.png'
+import ig from './assets/images/ig-logo.png'
+import tw from './assets/images/tw-logo.png'
 
 class Contact extends Component {
   render() {
@@ -24,6 +29,23 @@ class Contact extends Component {
           fulfill your order.
         </div>
         <a href="mailto:danscookiejar@gmail.com">danscookiejar@gmail.com</a>
+        <img className="cupcake" src={cupcake1} alt={'cupake1'} />
+        <div className="follow-us">
+          <img className="star" src={star} alt={'star'} />
+          <div className="follow-text">FOLLOW US</div>
+          <img className="star" src={star} alt={'star'} />
+        </div>
+        <div className="logos">
+          <a href={'https://www.facebook.com/danscookiejar'}>
+            <img className="logo" src={fb} alt={'facebook logo'} />
+          </a>
+          <a href={'https://www.instagram.com/danscookiejar/'}>
+            <img className="logo" src={ig} alt={'instagram logo'} />
+          </a>
+          <a href={'https://twitter.com/danscookiejar'}>
+            <img className="logo" src={tw} alt={'twitter logo'} />
+          </a>
+        </div>
       </div>
     )
   }

@@ -33,3 +33,36 @@
   text-align: center;
   line-height: 2;
 }
+
+.cupcake {
+  margin-top: 25px;
+}
+
+.follow-us {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.follow-text {
+  margin: 25px;
+  font-size: 25px;
+  font-weight: bolder;
+  color: $c-brown;
+  font-family: Enriqueta;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  height: 17vh;
+}
+
+.logo {
+  margin: 15px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

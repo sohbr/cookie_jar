@@ -51,14 +51,14 @@ class CookieList extends Component {
   render() {
     return (
       <ul className="cookie-list">
-        {cookies.map(c =>
+        {cookies.map(c => (
           <CookieListItem
             key={c.id}
             title={c.title}
             description={c.description}
             image={c.img_url}
           />
-        )}
+        ))}
       </ul>
     )
   }
