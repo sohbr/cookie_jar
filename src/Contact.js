@@ -14,6 +14,8 @@ const SizeableDiv = styled.div`
   height: ${props => (props.height ? props.height : '400px')};
 `
 class Contact extends Component {
+  // Set the size of the map here once and it will resize both the container and
+  // the child element
   mapWidth = '700px'
   mapHeight = '700px'
 
@@ -23,6 +25,7 @@ class Contact extends Component {
         <SizeableDiv width={this.mapWidth} height={this.mapHeight}>
           <MapContainer width={this.mapWidth} height={this.mapHeight} />
         </SizeableDiv>
+
         <div className="contact-order">
           Order by Phone or Text: 832-830-5599
         </div>
