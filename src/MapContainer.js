@@ -1,12 +1,22 @@
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 import { Map, InfoWindow, Marker, GoogleApiWrapper } from 'google-maps-react'
 
 export class MapContainer extends Component {
+  static propTypes = {
+    width: PropTypes.string,
+    height: PropTypes.string
+  }
+
+  static defaultProps = {
+    width: '400px',
+    height: '400px'
+  }
   render() {
     return (
       <Map
         google={this.props.google}
-        style={{ width: '45%', height: '45%' }}
+        style={{ width: this.props.width, height: this.props.height }}
         initialCenter={{
           lat: 29.5746991,
           lng: -95.2346119
