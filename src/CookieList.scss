@@ -48,3 +48,34 @@
 .cookie-list > .cookie-item > .cookie-content p {
   font-family: 'Enriqueta', serif;
 }
+
+// Trying BEM style
+.cookie-modal {
+  display: flex;
+  flex-flow: row nowrap;
+  opacity: 1;
+  transition: 0.2s all;
+}
+
+.cookie-modal > * {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.cookie-modal .cookie-modal--image {
+  min-width: 200px;
+  max-width: 35%;
+  overflow: hidden;
+}
+
+.cookie-modal .cookie-modal--image img {
+  width: 100%;
+}
+
+.cookie-modal .cookie-modal--content {
+  font-family: 'Enriqueta', serif;
+}
+
+.cookie-modal .cookie-modal--content h1 {
+  font-size: 4.0rem;
+}

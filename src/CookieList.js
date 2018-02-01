@@ -18,79 +18,105 @@ const cookies = [
   {
     id: 'assorted',
     title: 'Assorted',
-    description: 'My assorted cookies',
+    headline: 'My delicious assorted cookies',
+    description:
+      'A long, detailed description explaining why my assorted cookies is the best in the whole world.',
     img_url: './static/media/assorted.webp'
   },
   {
     id: 'almondbutter',
     title: 'Almond Butter',
-    description: 'My almond butter cookie',
+    headline: 'My delicious almond butter cookie',
+    description:
+      'A long, detailed description explaining why my almond butter cookie is the best in the whole world.',
     img_url: './static/media/almondbutter.webp'
   },
   {
     id: 'carrot',
     title: 'Carrot Cake',
-    description: 'My carrot cake cookie',
+    headline: 'My delicious carrot cake cookie',
+    description:
+      'A long, detailed description explaining why my carrot cake cookie is the best in the whole world.',
     img_url: './static/media/carrot.webp'
   },
   {
     id: 'chocolatechip',
     title: 'Chocolate Chip',
-    description: 'My chocolate chip cookie',
+    headline: 'My delicious chocolate chip cookie',
+    description:
+      'A long, detailed description explaining why my chocolate chip cookie is the best in the whole world.',
     img_url: './static/media/chocolatechip.webp'
   },
   {
     id: 'chocolatechipwalnut',
     title: 'Chocolate Chip Walnut',
-    description: 'My chocolate chip walnut cookie',
+    headline: 'My delicious chocolate chip walnut cookie',
+    description:
+      'A long, detailed description explaining why my chocolate chip walnut cookie is the best in the whole world.',
     img_url: './static/media/chocolatechip.webp'
   },
   {
     id: 'doublechocolatechipwalnut',
     title: 'Double Chocolate Chip Walnut',
-    description: 'My double chocolate chip walnut cookie',
+    headline: 'My delicious double chocolate chip walnut cookie',
+    description:
+      'A long, detailed description explaining why my double chocolate chip walnut cookie is the best in the whole world.',
     img_url: './static/media/doublechoco.webp'
   },
   {
     id: 'oatmealraisin',
     title: 'Oatmeal Raisin',
-    description: 'My OR cookie',
+    headline: 'My delicious OR cookie',
+    description:
+      'A long, detailed description explaining why my OR cookie is the best in the whole world.',
     img_url: './static/media/oatmealraisin.webp'
   },
   {
     id: 'oreo',
     title: 'Oreo',
-    description: 'My oreo cookie',
+    headline: 'My delicious oreo cookie',
+    description:
+      'A long, detailed description explaining why my oreo cookie is the best in the whole world.',
     img_url: './static/media/oreo.webp'
   },
   {
     id: 'peanutbutter',
     title: 'Peanut Butter',
-    description: 'My PB cookie',
+    headline: 'My delicious PB cookie',
+    description:
+      'A long, detailed description explaining why my PB cookie is the best in the whole world.',
     img_url: './static/media/peanutbutter.webp'
   },
   {
     id: 'pecansandie',
     title: 'Pecan Sandie',
-    description: 'My pecan sandie cookie',
+    headline: 'My delicious pecan sandie cookie',
+    description:
+      'A long, detailed description explaining why my pecan sandie cookie is the best in the whole world.',
     img_url: './static/media/pecansandie.webp'
   },
   {
     id: 'snickerdoodle',
     title: 'Snickerdoodle',
-    description: 'My snickerdoodle cookie',
+    headline: 'My delicious snickerdoodle cookie',
+    description:
+      'A long, detailed description explaining why my snickerdoodle cookie is the best in the whole world.',
     img_url: './static/media/snickerdoodle.webp'
   },
   {
     id: 'sugar',
     title: 'Sugar',
-    description: 'My sugar cookie',
+    headline: 'My delicious sugar cookie',
+    description:
+      'A long, detailed description explaining why my sugar cookie is the best in the whole world.',
     img_url: './static/media/sugar.webp'
   },
   {
     id: 'whitechocolatewalnut',
     title: 'White Chocolate Walnut',
-    description: 'My white chocolate walnut cookie',
+    headline: 'My delicious white chocolate walnut cookie',
+    description:
+      'A long, detailed description explaining why my white chocolate walnut cookie is the best in the whole world.',
     img_url: './static/media/white.webp'
   }
 ]
@@ -99,14 +125,15 @@ class CookieList extends Component {
   render() {
     return (
       <ul className="cookie-list">
-        {cookies.map(c => (
+        {cookies.map(c =>
           <CookieListItem
             key={c.id}
             title={c.title}
+            headline={c.headline}
             description={c.description}
             image={c.img_url}
           />
-        ))}
+        )}
       </ul>
     )
   }
