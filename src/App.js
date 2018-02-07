@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Jumbotron from './Jumbotron'
 import Navbar from './Navbar'
+import Gallery from './Gallery'
 import CookieList from './CookieList'
 import Contact from './Contact'
 import Footer from './Footer'
@@ -14,6 +15,7 @@ class App extends Component {
         <Jumbotron />
         <section className="gallery" id="gallery">
           <h2>Gallery</h2>
+          <Gallery />
         </section>
         <section className="cookies" id="cookies">
           <h2>Cookies</h2>
