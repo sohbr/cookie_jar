@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Scrollchor from 'react-scrollchor'
+// import Scrollchor from 'react-scrollchor'
 import './Navbar.scss'
 
 function easeInCubic(x, t, b, c, d) {
@@ -13,16 +13,16 @@ class Navbar extends Component {
       <navbar className="navbar">
         <ul>
           <li>
-            <Scrollchor className="scroll" to="#home" animate={{ offset: 0, duration: 600, easing: easeInCubic }}>Home</Scrollchor>
+            <div className="scroll" to="#home" animate={{ offset: 0, duration: 600, easing: easeInCubic }}>Home</div>
           </li>
           <li>
-            <Scrollchor className="scroll" to="#gallery" animate={{ offset: 0, duration: 600, easing: easeInCubic }}>Gallery</Scrollchor>
+            <div className="scroll" to="#gallery" animate={{ offset: 0, duration: 600, easing: easeInCubic }}>Gallery</div>
           </li>
           <li>
-            <Scrollchor className="scroll" to="#cookies" animate={{ offset: 0, duration: 600, easing: easeInCubic }}>Cookies</Scrollchor>
+            <div className="scroll" to="#cookies" animate={{ offset: 0, duration: 600, easing: easeInCubic }}>Cookies</div>
           </li>
           <li>
-            <Scrollchor className="scroll" to="#contact" animate={{ offset: 0, duration: 600, easing: easeInCubic }}>Contact</Scrollchor>
+            <div className="scroll" to="#contact" animate={{ offset: 0, duration: 600, easing: easeInCubic }}>Contact</div>
           </li>
         </ul>
       </navbar>
