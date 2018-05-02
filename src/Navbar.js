@@ -2,13 +2,8 @@ import React, { Component } from 'react'
 import { Link } from 'react-scroll'
 import './Navbar.scss'
 
-function easeInCubic(x, t, b, c, d) {
-  return c*(t/=d)*t*t + b;
-}
 
 class Navbar extends Component {
-
-
   render() {
     return (
       <navbar className="navbar">
