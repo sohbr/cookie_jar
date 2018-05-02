@@ -9,16 +9,16 @@ class Navbar extends Component {
       <navbar className="navbar">
         <ul>
           <li>
-            <div className="scroll" to="#home" animate={{ offset: 0, duration: 600, easing: easeInCubic }}>Home</div>
+            <div className="scroll" to="#home" >Home</div>
           </li>
           <li>
-            <div className="scroll" to="#gallery" animate={{ offset: 0, duration: 600, easing: easeInCubic }}>Gallery</div>
+            <div className="scroll" to="#gallery" >Gallery</div>
           </li>
           <li>
-            <div className="scroll" to="#cookies" animate={{ offset: 0, duration: 600, easing: easeInCubic }}>Cookies</div>
+            <div className="scroll" to="#cookies" >Cookies</div>
           </li>
           <li>
-            <div className="scroll" to="#contact" animate={{ offset: 0, duration: 600, easing: easeInCubic }}>Contact</div>
+            <div className="scroll" to="#contact" >Contact</div>
           </li>
         </ul>
       </navbar>
