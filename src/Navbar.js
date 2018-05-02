@@ -1,10 +1,6 @@
 import React, { Component } from 'react'
-// import Scrollchor from 'react-scrollchor'
 import './Navbar.scss'
 
-function easeInCubic(x, t, b, c, d) {
-  return c*(t/=d)*t*t + b;
-}
 
 class Navbar extends Component {
 
