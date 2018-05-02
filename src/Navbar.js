@@ -1,33 +1,30 @@
 import React, { Component } from 'react'
-import Scrollchor from 'react-scrollchor'
+import { Link } from 'react-scroll'
 import './Navbar.scss'
 
-function easeInCubic(x, t, b, c, d) {
-  return c*(t/=d)*t*t + b;
-}
 
 class Navbar extends Component {
-
   render() {
     return (
       <navbar className="navbar">
         <ul>
           <li>
-            <Scrollchor className="scroll" to="#home" animate={{ offset: 0, duration: 600, easing: easeInCubic }}>Home</Scrollchor>
+            <Link activeClass="active" to="home" spy="true" smooth="true" duration="{600}">Home</Link>
           </li>
           <li>
-            <Scrollchor className="scroll" to="#gallery" animate={{ offset: 0, duration: 600, easing: easeInCubic }}>Gallery</Scrollchor>
+            <Link activeClass="active" to="gallery" spy="true" smooth="true" duration="{600}">Gallery</Link>
           </li>
           <li>
-            <Scrollchor className="scroll" to="#cookies" animate={{ offset: 0, duration: 600, easing: easeInCubic }}>Cookies</Scrollchor>
+            <Link activeClass="active" to="cookies" spy="true" smooth="true" duration="{600}">Cookies</Link>
           </li>
           <li>
-            <Scrollchor className="scroll" to="#contact" animate={{ offset: 0, duration: 600, easing: easeInCubic }}>Contact</Scrollchor>
+            <Link activeClass="active" to="contact" spy="true" smooth="true" duration="{600}">Contact</Link>
           </li>
         </ul>
       </navbar>
     )
   }
 }
+
 
 export default Navbar
