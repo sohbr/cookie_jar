@@ -6,7 +6,6 @@ import CookieList from './CookieList'
 import Contact from './Contact'
 import Footer from './Footer'
 import './App.scss'
-import { Element } from 'react-scroll'
 
 class App extends Component {
   render() {
@@ -14,24 +13,22 @@ class App extends Component {
       <div className="grid-wrapper">
         <Navbar />
         <Jumbotron />
-        <Element name="gallery">
+
           <section className="gallery" id="gallery">
-            <h2 className="section-headers">Gallery</h2>
+            <h2>Gallery</h2>
             <Gallery />
           </section>
-        </Element>
-        <Element name="cookies">
+
           <section className="cookies" id="cookies">
-            <h2 className="section-headers">Cookies</h2>
+            <h2>Cookies</h2>
             <CookieList />
           </section>
-        </Element>
-        <Element name="contact">
+
           <section className="contact" id="contact">
-            <h2 className="section-headers">Contact Us</h2>
+            <h2>Contact Us</h2>
             <Contact />
           </section>
-        </Element>
+
         <Footer />
       </div>
     )

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Link } from 'react-scroll'
 import './Navbar.scss'
 
 function easeInCubic(x, t, b, c, d) {
