@@ -2,12 +2,21 @@
 
 .navbar {
   grid-area: navbar;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: $c-brown;
   color: $c-offwhite;
   text-align: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.navbar ul {
+.navbar-center {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-center ul {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -16,16 +25,50 @@
   justify-content: flex-end;
 }
 
-.navbar ul > li {
-}
-
-.navbar ul > li > a {
+.navbar-title > a {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
-  font-family: "Kelly Slab", sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
   height: 100%;
-  color: white;
+  color: $c-offwhite;
+  text-decoration: none;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  cursor: pointer;
+  transition: 0.2s all;
+  width: 600px;
+
+  &:visited,
+  &:active {
+    color: white;
+    text-decoration: none;
+  }
+
+  &:hover {
+    color: black;
+    background-color: $c-lightblue;
+  }
+}
+
+.navbar-menu {
+  width: 600px;
+}
+
+.navbar-menu ul > li {
+}
+
+.navbar-menu ul > li > a {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  height: 100%;
+  color: $c-offwhite;
   text-decoration: none;
   padding-left: 2rem;
   padding-right: 2rem;
