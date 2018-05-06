@@ -48,8 +48,7 @@
   }
 
   &:hover {
-    color: black;
-    background-color: $c-lightblue;
+    color: $c-lightblue;
   }
 }
 
@@ -82,7 +81,7 @@
   }
 
   &:hover {
-    color: black;
+    color: $c-brown;
     background-color: $c-lightblue;
   }
 }

@@ -4,7 +4,7 @@
   grid-area: jumbotron;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   background-color: $c-offwhite;
   color: $c-brown;
@@ -30,45 +30,37 @@
   }
 }
 
-header.jumbotron .header-left {
+header.jumbotron .header-center {
   z-index: 2;
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 1200px;
   justify-content: center;
   align-items: center;
-  margin-left: 50px;
+
 }
 
-header.jumbotron .header-left .logo {
+header.jumbotron .header-center .logo {
   height: auto;
-  width: 75%;
+  width: 270px;
 }
 
-header.jumbotron .header-right {
-  z-index: 2;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  width: 60%;
-  justify-content: center;
-  align-items: center;
-  margin-right: 50px;
-}
 
-header.jumbotron .header-right h1 {
-  font-family: 'Kelly Slab', sans-serif;
-  font-size: 6vw;
+header.jumbotron .header-center h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 80px;
   color: $c-brown;
   display: block;
   text-align: center;
+  margin-top: 35px;
   margin-bottom: 15px;
 }
 
-header.jumbotron .header-right h2 {
-  font-size: 1.5vw;
-  font-family: Enriqueta;
+header.jumbotron .header-center h2 {
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
   width: 80%;
   display: flex;
   justify-content: center;

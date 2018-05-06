@@ -6,10 +6,11 @@ import './Jumbotron.scss'
 const Jumbotron = props =>
   <header id="home" className="jumbotron">
     <div className="header-left">
-      <img src={logo} className="logo" alt="logo" />
     </div>
-    <div className="header-right">
-      <h1>Dan&apos;s Cookie Jar</h1>
+    <div className="header-center">
+      <img src={logo} className="logo" alt="logo" />
+
+      <h1>DAN'S COOKIE JAR</h1>
       <h2>
         Welcome to my cookie jar. I don&apos;t have much of a story other than
         being a hungry guy with an appetite for delicious cookies. And besides,
@@ -17,6 +18,8 @@ const Jumbotron = props =>
         cheesy story later...
       </h2>
       <Button width="14vw">Order Now</Button>
+    </div>
+    <div className="header-right">
     </div>
   </header>
 

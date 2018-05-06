@@ -2,7 +2,7 @@
 
 .grid-wrapper {
   display: grid;
-  grid-template-rows: 55px 100vh 100vh;
+  grid-template-rows: 55px 775px 100vh;
   // The "." is an autofill row--anything not explicitly defined here will be
   // placed into that position
   grid-template-areas: 'navbar' 'jumbotron' 'gallery' 'cookies' 'contact'
