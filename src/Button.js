@@ -12,7 +12,7 @@ export default styled.button`
   height: ${props => (props.height ? props.height : "auto")};
   padding: 0.5rem 1.25rem;
   transition: 0.2s all;
-  font-family: "Enriqueta", serif;
+  font-family: "Lato", serif;
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;

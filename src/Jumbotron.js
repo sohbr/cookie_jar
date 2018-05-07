@@ -17,7 +17,7 @@ const Jumbotron = props =>
         anyone can bake a cookie, we craft an experience. I&apos;ll add some
         cheesy story later...
       </h2>
-      <Button width="14vw">Order Now</Button>
+      <Button width="150px">Order Now</Button>
     </div>
     <div className="header-right">
     </div>
