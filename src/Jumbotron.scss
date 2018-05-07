@@ -55,14 +55,16 @@ header.jumbotron .header-center h1 {
   display: block;
   text-align: center;
   margin-top: 35px;
-  margin-bottom: 15px;
+  margin-bottom: 35px;
 }
 
 header.jumbotron .header-center h2 {
   font-size: 20px;
   font-family: 'Merriweather', serif;
-  width: 80%;
+  text-align: center;
+  width: 67%;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 35px;
 }
