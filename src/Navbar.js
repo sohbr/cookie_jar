@@ -11,8 +11,10 @@ class Navbar extends Component {
         <div className="navbar-left"></div>
         <div className="navbar-center">
           <div className="navbar-title">
-            <Link className="test" activeClass="active" to="home" spy={true}
-              smooth={true} duration={600}>dan's cookie jar</Link>
+            <div>
+              <Link className="test" activeClass="active" to="home" spy={true}
+                smooth={true} duration={600}>dan's cookie jar</Link>
+            </div>
           </div>
           <div className="navbar-menu">
             <ul>

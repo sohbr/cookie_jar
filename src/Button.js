@@ -5,7 +5,7 @@ export default styled.button`
   background-color: ${props =>
     props.color ? props.color : colorMap.get("brown")};
   color: ${colorMap.get("offwhite")};
-  margin-top: 1rem;
+  margin-top: 1px;
   border-radius: 0.3rem;
   border: 0.1rem solid transparent;
   width: ${props => (props.width ? props.width : "auto")};
@@ -17,10 +17,14 @@ export default styled.button`
   font-weight: bold;
   cursor: pointer;
 
+
   &:hover {
     background-color: ${colorMap.get("offwhite")};
     color: ${props => (props.color ? props.color : colorMap.get("brown"))};
     border-color: ${props =>
       props.color ? props.color : colorMap.get("brown")};
+  }
+  &:focus {
+    outline: 0;
   }
 `;
