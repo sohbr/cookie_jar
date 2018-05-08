@@ -1,6 +1,31 @@
+@import 'themes/colors';
+
 .carousel-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: $c-lightblue;
+}
+
+div > h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  color: $c-brown;
+  text-align: center;
+  display: block;
+  margin: 80px 0 10px 0;
+}
+
+div > h3 {
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  width: 67%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  margin-bottom: 35px;
 }

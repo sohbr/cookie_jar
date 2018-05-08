@@ -1,5 +1,19 @@
 @import 'themes/colors';
 
+.cookies {
+  background-color: $c-offwhite;
+}
+
+.cookies > h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  color: $c-brown;
+  text-align: center;
+  display: block;
+  margin: 80px 0 10px 0;
+}
+
 .cookie-list {
   display: flex;
   flex-flow: row wrap;
@@ -9,7 +23,7 @@
 .cookie-list > .cookie-item {
   width: 31%;
   min-width: 300px;
-  background-color: $c-offwhite;
+  background-color: $c-lightblue;
   margin-right: 1rem;
   margin-bottom: 1rem;
   transition: 0.2s all;

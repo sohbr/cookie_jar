@@ -2,7 +2,7 @@
 
 .grid-wrapper {
   display: grid;
-  grid-template-rows: 775px 100vh;
+  grid-template-rows: 800px;
   // The "." is an autofill row--anything not explicitly defined here will be
   // placed into that position
   grid-template-areas:'jumbotron' 'gallery' 'cookies' 'contact'
@@ -16,11 +16,13 @@
 
 // Section headers
 .grid-wrapper > section > h2 {
-  font-family: 'Kelly Slab', sans-serif;
-  font-size: 2rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
   color: $c-brown;
   text-align: center;
   display: block;
+  margin: 80px 0 10px 0;
 }
 
 .grid-wrapper > section.gallery {

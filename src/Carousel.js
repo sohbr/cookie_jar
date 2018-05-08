@@ -18,8 +18,6 @@ const CarouselDiv = styled.div`
 `
 
 class Carousel extends Component {
-  carouselWidth = '500px'
-  carouselHeight = '500px'
 
   render() {
     const settings = {
@@ -30,11 +28,12 @@ class Carousel extends Component {
       autoplay: true,
       autoplaySpeed: 2500,
       fade: 'Default',
-      pauseOnHover: false
+      pauseOnHover: false,
+      arrows: false
     }
     return (
       <div className="carousel">
-        <CarouselDiv width={this.carouselWidth} height={this.carouselHeight}>
+        <CarouselDiv width='500px' height='100px'>
           <Slider className="slider" {...settings}>
             <div>
               <img className="cookie-pics" src={c1} alt="c1" />
@@ -59,6 +58,8 @@ class Carousel extends Component {
             </div>
           </Slider>
         </CarouselDiv>
+
+        
       </div>
     )
   }

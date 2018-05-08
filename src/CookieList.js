@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import CookieListItem from './CookieListItem'
+import StarDivider from './StarDivider'
+
 import './CookieList.scss'
 import './assets/images/almondbutter.webp'
 import './assets/images/carrot.webp'
@@ -124,17 +126,21 @@ const cookies = [
 class CookieList extends Component {
   render() {
     return (
-      <ul className="cookie-list">
-        {cookies.map(c =>
-          <CookieListItem
-            key={c.id}
-            title={c.title}
-            headline={c.headline}
-            description={c.description}
-            image={c.img_url}
-          />
-        )}
-      </ul>
+      <div className="cookies">
+        <h2>COOKIES</h2>
+        <StarDivider />
+        <ul className="cookie-list">
+          {cookies.map(c =>
+            <CookieListItem
+              key={c.id}
+              title={c.title}
+              headline={c.headline}
+              description={c.description}
+              image={c.img_url}
+            />
+          )}
+        </ul>
+      </div>
     )
   }
 }

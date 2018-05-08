@@ -1,0 +1,21 @@
+@import 'themes/colors';
+
+.star-divider {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+div > i {
+  color: $c-brown;
+}
+
+.bar {
+  margin: 6px;
+  width: 125px;
+  height: 4px;
+  background-color: $c-brown;
+  border: 1px;
+}

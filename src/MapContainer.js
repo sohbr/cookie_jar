@@ -16,7 +16,7 @@ export class MapContainer extends Component {
     return (
       <Map
         google={this.props.google}
-        style={{ width: this.props.width, height: this.props.height }}
+        style={{ width: this.props.width, height: this.props.height, position: 'relative', display: 'flex', justifycontent: 'center' }}
         initialCenter={{
           lat: 29.5746991,
           lng: -95.2346119
@@ -33,9 +33,8 @@ export class MapContainer extends Component {
           visible={true}
           position={{ lat: 29.5746991, lng: -95.2346119 }}
         >
-          <div>
+
             <h2>2114 Mooncrest Dr. Houston, TX 77089</h2>
-          </div>
         </InfoWindow>
       </Map>
     )
