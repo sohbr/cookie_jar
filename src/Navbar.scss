@@ -9,6 +9,9 @@
   flex-direction: row;
   justify-content: space-between;
   height: 55px;
+  position: fixed;
+  z-index: 3;
+  width: 100%;
 }
 
 .navbar-center {
