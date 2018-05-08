@@ -26,7 +26,14 @@
   justify-content: flex-end;
 }
 
-.navbar-title > a {
+.navbar-title {
+  width: 600px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navbar-title > div > a {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -40,7 +47,7 @@
   padding-right: 2rem;
   cursor: pointer;
   transition: 0.2s all;
-  width: 600px;
+  width: 220px;
 
   &:visited,
   &:active {
