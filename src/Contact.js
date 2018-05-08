@@ -1,30 +1,29 @@
 import React, { Component } from 'react'
-import styled from 'styled-components'
 import './Contact.scss'
 import MapContainer from './MapContainer'
+import StarDivider from './StarDivider'
+
 import cupcake1 from './assets/images/cupcake1.png'
 import star from './assets/images/star.png'
 import fb from './assets/images/fb-logo.png'
 import ig from './assets/images/ig-logo.png'
 import tw from './assets/images/tw-logo.png'
 
-const SizeableDiv = styled.div`
-  margin-top: 25px;
-  width: ${props => (props.width ? props.width : '400px')};
-  height: ${props => (props.height ? props.height : '400px')};
-`
+
 class Contact extends Component {
   // Set the size of the map here once and it will resize both the container and
   // the child element
-  mapWidth = '700px'
-  mapHeight = '700px'
+  mapWidth = '500px'
+  mapHeight = '300px'
 
   render() {
     return (
       <div className="contact">
-        <SizeableDiv width={this.mapWidth} height={this.mapHeight}>
+        <h2>CONTACT</h2>
+        <StarDivider />
+        <div className="sizeable">
           <MapContainer width={this.mapWidth} height={this.mapHeight} />
-        </SizeableDiv>
+        </div>
 
         <div className="contact-order">
           Order by Phone or Text: 832-830-5599

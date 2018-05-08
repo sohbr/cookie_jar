@@ -2,6 +2,7 @@
 
 .grid-wrapper > header.jumbotron {
   grid-area: jumbotron;
+  min-width: 1200px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -20,7 +21,7 @@
     left: 0;
     top: 0;
     width: 100%;
-    min-width: 1200px;
+
     height: 100%;
     z-index: 1;
     opacity: 0.4;
@@ -57,26 +58,6 @@ header.jumbotron .header-center h1 {
   text-align: center;
   margin-top: 35px;
   margin-bottom: 15px;
-}
-
-.star-divider {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-div > i {
-  color: $c-brown;
-}
-
-.bar {
-  margin: 6px;
-  width: 200px;
-  height: 4px;
-  background-color: $c-brown;
-  border: 1px;
 }
 
 header.jumbotron .header-center h2 {
