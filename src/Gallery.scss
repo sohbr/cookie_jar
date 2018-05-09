@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: $c-lightblue;
+  background-color: $c-lightbrown;
 }
 
 div > h2 {
@@ -22,10 +22,12 @@ div > h3 {
   font-size: 20px;
   font-family: 'Merriweather', serif;
   text-align: center;
-  width: 67%;
+  color: $c-brown;
+  font-weight: bold;
+  width: 700px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 200px;
-  margin-bottom: 35px;
+  margin-bottom: 100px;
 }

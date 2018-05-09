@@ -19,7 +19,7 @@ import './assets/images/white.webp'
 const cookies = [
   {
     id: 'assorted',
-    title: 'Assorted',
+    title: 'assorted',
     headline: 'My delicious assorted cookies',
     description:
       'A long, detailed description explaining why my assorted cookies is the best in the whole world.',
@@ -27,7 +27,7 @@ const cookies = [
   },
   {
     id: 'almondbutter',
-    title: 'Almond Butter',
+    title: 'almond butter',
     headline: 'My delicious almond butter cookie',
     description:
       'A long, detailed description explaining why my almond butter cookie is the best in the whole world.',
@@ -35,7 +35,7 @@ const cookies = [
   },
   {
     id: 'carrot',
-    title: 'Carrot Cake',
+    title: 'carrot cake',
     headline: 'My delicious carrot cake cookie',
     description:
       'A long, detailed description explaining why my carrot cake cookie is the best in the whole world.',
@@ -43,7 +43,7 @@ const cookies = [
   },
   {
     id: 'chocolatechip',
-    title: 'Chocolate Chip',
+    title: 'chocolate chip',
     headline: 'My delicious chocolate chip cookie',
     description:
       'A long, detailed description explaining why my chocolate chip cookie is the best in the whole world.',
@@ -51,7 +51,7 @@ const cookies = [
   },
   {
     id: 'chocolatechipwalnut',
-    title: 'Chocolate Chip Walnut',
+    title: 'chocolate chip walnut',
     headline: 'My delicious chocolate chip walnut cookie',
     description:
       'A long, detailed description explaining why my chocolate chip walnut cookie is the best in the whole world.',
@@ -59,7 +59,7 @@ const cookies = [
   },
   {
     id: 'doublechocolatechipwalnut',
-    title: 'Double Chocolate Chip Walnut',
+    title: 'double chocolate chip walnut',
     headline: 'My delicious double chocolate chip walnut cookie',
     description:
       'A long, detailed description explaining why my double chocolate chip walnut cookie is the best in the whole world.',
@@ -67,7 +67,7 @@ const cookies = [
   },
   {
     id: 'oatmealraisin',
-    title: 'Oatmeal Raisin',
+    title: 'oatmeal raisin',
     headline: 'My delicious OR cookie',
     description:
       'A long, detailed description explaining why my OR cookie is the best in the whole world.',
@@ -75,7 +75,7 @@ const cookies = [
   },
   {
     id: 'oreo',
-    title: 'Oreo',
+    title: 'oreo',
     headline: 'My delicious oreo cookie',
     description:
       'A long, detailed description explaining why my oreo cookie is the best in the whole world.',
@@ -83,7 +83,7 @@ const cookies = [
   },
   {
     id: 'peanutbutter',
-    title: 'Peanut Butter',
+    title: 'peanut butter',
     headline: 'My delicious PB cookie',
     description:
       'A long, detailed description explaining why my PB cookie is the best in the whole world.',
@@ -91,7 +91,7 @@ const cookies = [
   },
   {
     id: 'pecansandie',
-    title: 'Pecan Sandie',
+    title: 'pecan sandie',
     headline: 'My delicious pecan sandie cookie',
     description:
       'A long, detailed description explaining why my pecan sandie cookie is the best in the whole world.',
@@ -99,7 +99,7 @@ const cookies = [
   },
   {
     id: 'snickerdoodle',
-    title: 'Snickerdoodle',
+    title: 'snickerdoodle',
     headline: 'My delicious snickerdoodle cookie',
     description:
       'A long, detailed description explaining why my snickerdoodle cookie is the best in the whole world.',
@@ -107,7 +107,7 @@ const cookies = [
   },
   {
     id: 'sugar',
-    title: 'Sugar',
+    title: 'sugar',
     headline: 'My delicious sugar cookie',
     description:
       'A long, detailed description explaining why my sugar cookie is the best in the whole world.',
@@ -115,7 +115,7 @@ const cookies = [
   },
   {
     id: 'whitechocolatewalnut',
-    title: 'White Chocolate Walnut',
+    title: 'white chocolate walnut',
     headline: 'My delicious white chocolate walnut cookie',
     description:
       'A long, detailed description explaining why my white chocolate walnut cookie is the best in the whole world.',

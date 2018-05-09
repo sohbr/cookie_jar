@@ -41,9 +41,7 @@ class CookieListItem extends Component {
           <h2>
             {this.props.title}
           </h2>
-          <p>
-            {this.props.headline}
-          </p>
+
         </div>
         <Modal
           isOpen={this.state.isOpen}
