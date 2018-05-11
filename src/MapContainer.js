@@ -9,8 +9,8 @@ export class MapContainer extends Component {
   }
 
   static defaultProps = {
-    width: '400px',
-    height: '400px'
+    width: '40rem',
+    height: '40rem'
   }
   render() {
     return (

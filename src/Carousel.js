@@ -12,7 +12,7 @@ import c6 from './assets/images/c6.png'
 import c7 from './assets/images/c7.png'
 
 const CarouselDiv = styled.div`
-  margin-top: 25x;
+  margin-top: 2.5rem;
   width: ${props => (props.width ? props.width : '400px')};
   height: ${props => (props.height ? props.height : '400px')};
 `
@@ -33,7 +33,7 @@ class Carousel extends Component {
     }
     return (
       <div className="carousel">
-        <CarouselDiv width='500px' height='100px'>
+        <CarouselDiv width='50rem' height='10rem'>
           <Slider className="slider" {...settings}>
             <div>
               <img className="cookie-pics" src={c1} alt="c1" />
@@ -59,7 +59,7 @@ class Carousel extends Component {
           </Slider>
         </CarouselDiv>
 
-        
+
       </div>
     )
   }

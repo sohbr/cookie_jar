@@ -10,11 +10,11 @@
 .cookies > h2 {
   font-family: 'Lato', sans-serif;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 5rem;
   color: $c-brown;
   text-align: center;
   display: block;
-  margin: 80px 0 10px 0;
+  margin: 8rem 0 1rem 0;
 }
 
 .cookie-list {
@@ -22,25 +22,24 @@
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  margin-left: 40px;
-  margin-top: 40px;
-  margin-bottom: 80px;
+  margin-left: 4rem;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
 
 }
 
 .cookie-list > .cookie-item {
   width: 300px;
-  min-width: 300px;
-  height: 380px;
+  height: 400px;
   background-color: $c-lightbrown;
-  margin-right: 40px;
-  margin-bottom: 40px;
+  margin-right: 4rem;
+  margin-bottom: 4rem;
   transition: 0.5s all;
-  border-radius: 10px;
+  border-radius: 1rem;
 
   &:hover {
     transform: scale(1.025);
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.5);
   }
 }
 
@@ -68,7 +67,7 @@
 
 .cookie-list > .cookie-item > .cookie-content h2 {
   font-family: 'Merriweather', sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
   margin-bottom: 0.8rem;
   text-align: center;
@@ -104,7 +103,7 @@
 }
 
 .cookie-modal .cookie-modal--content {
-  font-family: 'Enriqueta', serif;
+  font-family: 'Merriweather', sans-serif;
 }
 
 .cookie-modal .cookie-modal--content h1 {

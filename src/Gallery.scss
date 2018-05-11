@@ -11,23 +11,23 @@
 div > h2 {
   font-family: 'Lato', sans-serif;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 5rem;
   color: $c-brown;
   text-align: center;
   display: block;
-  margin: 80px 0 10px 0;
+  margin: 8rem 0 1rem 0;
 }
 
 div > h3 {
-  font-size: 20px;
+  font-size: 2rem;
   font-family: 'Merriweather', serif;
   text-align: center;
   color: $c-brown;
   font-weight: bold;
-  width: 700px;
+  width: 70rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 200px;
-  margin-bottom: 100px;
+  margin-top: 20rem;
+  margin-bottom: 10rem;
 }
