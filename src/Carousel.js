@@ -33,7 +33,7 @@ class Carousel extends Component {
     }
     return (
       <div className="carousel">
-        <CarouselDiv width='50rem' height='10rem'>
+        <CarouselDiv width='500px' height='100px'>
           <Slider className="slider" {...settings}>
             <div>
               <img className="cookie-pics" src={c1} alt="c1" />

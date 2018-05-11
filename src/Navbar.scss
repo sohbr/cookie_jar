@@ -8,14 +8,14 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 5.5rem;
+  height: 55px;
   position: fixed;
   z-index: 3;
   width: 100%;
 }
 
 .navbar-center {
-  width: 120rem;
+  width: 1200px;
   display: flex;
   flex-direction: row;
 }
@@ -30,7 +30,7 @@
 }
 
 .navbar-title {
-  width: 60rem;
+  width: 600px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -46,8 +46,8 @@
   height: 100%;
   color: $c-offwhite;
   text-decoration: none;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 20px;
+  padding-right: 20px;
   cursor: pointer;
   transition: 0.2s all;
   width: 22rem;
@@ -64,7 +64,7 @@
 }
 
 .navbar-menu {
-  width: 60rem;
+  width: 600px;
 }
 
 .navbar-menu ul > li {
