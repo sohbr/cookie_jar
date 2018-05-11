@@ -5,7 +5,7 @@ export default styled.button`
   background-color: ${props =>
     props.color ? props.color : colorMap.get("brown")};
   color: ${colorMap.get("offwhite")};
-  margin-top: 1px;
+  margin-top: 0.1rem;
   border-radius: 0.3rem;
   border: 0.1rem solid transparent;
   width: ${props => (props.width ? props.width : "auto")};

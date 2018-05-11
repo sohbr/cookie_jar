@@ -25,7 +25,7 @@ class Contact extends Component {
           <MapContainer width={this.mapWidth} height={this.mapHeight} />
         </div>
 
-        <div className="contact-order">
+        <div className="first-contact-order">
           Order by Phone or Text: 832-830-5599
         </div>
         <div className="contact-order">or</div>

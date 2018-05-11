@@ -2,7 +2,7 @@
 
 .grid-wrapper > header.jumbotron {
   grid-area: jumbotron;
-  min-width: 1200px;
+  min-width: 120rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -37,37 +37,37 @@ header.jumbotron .header-center {
   position: relative;
   display: flex;
   flex-direction: column;
-  min-width: 1200px;
+  min-width: 120rem;
   justify-content: center;
   align-items: center;
 
 }
 
 header.jumbotron .header-center .logo {
-  height: auto;
-  width: 270px;
-  margin-top: 70px;
+  height: 35.9rem;
+  width: 27rem;
+  margin-top: 7rem;
 }
 
 
 header.jumbotron .header-center h1 {
   font-family: 'Lato', sans-serif;
   font-weight: bold;
-  font-size: 80px;
+  font-size: 8rem;
   color: $c-brown;
   display: block;
   text-align: center;
-  margin-top: 35px;
-  margin-bottom: 15px;
+  margin-top: 3.5rem;
+  margin-bottom: 1.5rem;
 }
 
 header.jumbotron .header-center h2 {
-  font-size: 20px;
+  font-size: 2rem;
   font-family: 'Merriweather', serif;
   text-align: center;
   width: 67%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 35px;
+  margin-bottom: 3.5rem;
 }
