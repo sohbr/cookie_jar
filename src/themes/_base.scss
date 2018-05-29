@@ -8,3 +8,11 @@ body {
   font-size: 10px;
   min-width: 1000px;
 }
+
+a,
+a:visited,
+a:link,
+a:active,
+a:hover {
+  color: $c-brown;
+}

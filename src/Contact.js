@@ -9,7 +9,6 @@ import fb from './assets/images/fb-logo.png'
 import ig from './assets/images/ig-logo.png'
 import tw from './assets/images/tw-logo.png'
 
-
 class Contact extends Component {
   // Set the size of the map here once and it will resize both the container and
   // the child element
@@ -53,13 +52,22 @@ class Contact extends Component {
           <img className="star" src={star} alt={'star'} />
         </div>
         <div className="logos">
-          <a href={'https://www.facebook.com/danscookiejar'}>
+          <a
+            href="https://www.facebook.com/danscookiejar"
+            target="_blank noreferrer noopener"
+          >
             <img className="logo" src={fb} alt={'facebook logo'} />
           </a>
-          <a href={'https://www.instagram.com/danscookiejar/'}>
+          <a
+            href="https://www.instagram.com/danscookiejar/"
+            target="_blank noreferrer noopener"
+          >
             <img className="logo" src={ig} alt={'instagram logo'} />
           </a>
-          <a href={'https://twitter.com/danscookiejar'}>
+          <a
+            href="https://twitter.com/danscookiejar"
+            target="_blank noreferrer noopener"
+          >
             <img className="logo" src={tw} alt={'twitter logo'} />
           </a>
         </div>
